@@ -1,0 +1,91 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+header{
+       background-color: rgb(255, 204, 0);
+       height: 30vh; 
+       display: flex;
+       justify-content: center;
+       align-items: center;   
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+main{
+    background-color: bisque;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+}
+.box .input{
+    
+    padding: 20px;
+    border: none;
+    background:none;
+    font-size: 3vh;
+    border-bottom: 1px solid black;
+}
+ /* Styling for the button within .box */
+.box button {
+    background-color: #0f0d0d9b; /* Aqua color */
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Add some padding */
+    font-size: 16px; /* Increase font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:6rem;
+    left:57rem;
+    text-transform: uppercase; /* Capitalize text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Hover effect */
+.box button:hover {
+    background-color: #298498d8; /* Darker aqua on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Focus effect */
+.box button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 2px #00bbd400; /* Add custom focus outline */
+}
+
+.but{
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    text-decoration: none;
+   background: none;
+   border: none;
+   border-radius: 10%;
+   background-color: aqua;
+   overflow: hidden;
+    
+}
+
+.weather-container{
+    display: flex;
+    gap:2rem;
+}
+
+.weather-state img{
+    width: 8vh;
+    height: 8vh;
+}
+
